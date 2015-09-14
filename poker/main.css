@@ -1,0 +1,36 @@
+body {
+    font-size: 32px;
+    font-family: fantasy;
+
+    background-color: black;
+}
+
+.container {
+    display: block;
+
+    background-color: red;
+}
+
+.video-container {
+    display: block;
+
+    width: auto;
+    height: auto;
+}
+
+.video-youtube {
+    display: block;
+
+    width: 720px;
+    height: 450px;
+
+    margin: 0 auto;
+
+    padding: 50px 0px;
+
+}
+
+.poker-text {
+    font-size: 77px;
+    font-family: sans-serif;
+}

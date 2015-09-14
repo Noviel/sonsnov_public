@@ -1,0 +1,55 @@
+body {
+    display: block;
+
+    font-family: sans-serif;
+    font-size: 12px;
+
+    background-color: azure;
+}
+
+.main-label, .link-button {
+    display: inline-flex;
+    font-size: 30px;
+    background-color: indianred;
+    min-width: 8%;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    color: aliceblue;
+    
+    transition: all .4s ease-in;
+    -webkit-transition: all .2s ease-in;
+}
+
+.main-label:hover, .link-button:hover {
+    /*background-color: rgb(128, 16, 16);*/
+    /*color: aliceblue;
+    font-family: sans-serif;*/
+    
+     color: black;
+     background-color: #f29696;
+}
+
+#login-panel, #main-menu {
+    display: block;
+    outline: solid 2px #8e9fa2;
+    margin: auto 0;
+    min-width: 70%;
+    background-color: antiquewhite;
+}
+
+.input-def {
+    display: inline-block;
+}
+
+#logout-label {
+  display: none;
+}
+
+.red {
+    color: red;
+}
+
+.big-label {
+    font-size: 30px;
+}
